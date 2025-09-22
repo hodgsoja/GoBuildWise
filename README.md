@@ -1,75 +1,52 @@
-[README.md](https://github.com/user-attachments/files/22453679/README.md)
-# BuildWise AI
-
-![BuildWise AI Logo](static/logo.svg)
-
-**Smarter Construction Starts Here**
-
-BuildWise AI helps contractors unlock the power of artificial intelligence—without the technical jargon. Our tools and consulting are tailored for construction businesses with $1–10 million in revenue who want to modernize, boost efficiency, and stay competitive.
-
----
-
-## 🚀 What is BuildWise AI?
-
-BuildWise AI bridges the gap between cutting-edge AI technology and real-world construction operations. We make it easy to integrate AI into your daily workflow—whether it’s for estimating, scheduling, reporting, or communications.
-
-**Key features:**
-- AI tools and automation tailored for contractors
-- Simple, jargon-free onboarding and support
-- Lead generation and contact form for new clients
-
----
-
-## 🏗️ Who is This For?
-
-- Contractors and construction professionals
-- Companies with $1–10M in annual revenue
-- Teams looking to adopt AI but unsure where to start
-
----
-
-## 🌐 Website Structure
-
-- **Home:** Introduces BuildWise AI and its value.
-- **About:** Our mission and approach.
-- **Contact:** Simple form to reach out for a demo or consult.
-
----
-
-## 📦 Getting Started (Local Development)
-
-1. **Clone this repo:**  
-   `git clone https://github.com/hodgsoja/GoBuildWise.git`
-2. **Install Go:**  
-   Get the latest version at [golang.org](https://golang.org/dl/)
-3. **Install dependencies:**  
-   `go get github.com/labstack/echo/v4`
-4. **Run the server:**  
-   `go run main.go templates.go`
-5. **Visit:**  
-   [http://localhost:8080](http://localhost:8080)
-
----
-
-## 🖼️ Branding
-
-- Logo: [static/logo.svg](static/logo.svg)
-- Colors: Orange (#FF9800), Deep Blue (#174ea6), White background
-
----
-
-## 📬 Contact
-
-Want to learn more or see a demo?  
-Use the [Contact](http://localhost:8080/contact) page, or email: **info@buildwiseai.com**
-
----
-
-## 📄 License
-
-MIT License.  
-See [LICENSE](LICENSE) for details.
-
----
-
-*BuildWise AI © 2025. All rights reserved.*
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BuildWise AI — Smarter Construction Starts Here</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/typewriter.js" defer></script>
+</head>
+<body>
+    <div class="layout">
+        <nav class="sidebar">
+            <img src="/static/logo.svg" alt="BuildWise AI Logo" class="logo">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+        </nav>
+        <main>
+            <!-- Section 1: SBE Council Study -->
+            <section class="hero">
+                <div class="hero-image"></div>
+                <h1>How Much Can AI Save Your Business?</h1>
+                <div class="typewriter" id="study-quote"></div>
+                <p class="hero-caption">Source: Small Business & Entrepreneurship Council (SBE Council), 2024</p>
+            </section>
+            <!-- Section 2: Workflow -->
+            <section class="workflow">
+                <h2>From Walkthrough Notes to Invoice, in Minutes</h2>
+                <div class="workflow-steps">
+                    <div class="step">1. <strong>Walkthrough notes</strong> (voice or text)</div>
+                    <div class="arrow">→</div>
+                    <div class="step">2. <strong>Desk-ready estimate</strong></div>
+                    <div class="arrow">→</div>
+                    <div class="step">3. <strong>Home Depot shopping list</strong></div>
+                    <div class="arrow">→</div>
+                    <div class="step">4. <strong>Instant invoice</strong></div>
+                </div>
+                <p class="workflow-note">The better your instructions, the better the outputs.<br>
+                Double-check before sending—AI gets you 90% there, instantly.</p>
+            </section>
+            <!-- Section 3: Financials -->
+            <section class="financials">
+                <h2>Simplify Receipts & Financial Tracking</h2>
+                <ul>
+                    <li>Snap & store receipts—no more lost paperwork</li>
+                    <li>Streamline expense reporting</li>
+                    <li>Automate profit/loss summaries</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
