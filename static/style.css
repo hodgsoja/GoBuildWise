@@ -1,134 +1,43 @@
-body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background: #f7fafc;
-    margin: 0;
-    padding: 0;
-    color: #222;
-}
-.layout {
-    display: flex;
-    min-height: 100vh;
-}
-.sidebar {
-    background: #174ea6;
-    color: white;
-    width: 220px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 2rem;
-    min-height: 100vh;
-}
-.sidebar .logo {
-    margin-bottom: 2rem;
-    height: 64px;
-}
-.sidebar a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 1rem 0;
-    font-size: 1.2rem;
-    width: 100%;
-    text-align: center;
-    padding: 0.5rem 0;
-    border-radius: 6px;
-    transition: background 0.2s;
-}
-.sidebar a:hover {
-    background: #ff9800;
-    color: #181818;
-}
-main {
-    flex: 1;
-    padding: 2rem 3rem;
-    max-width: 900px;
-    margin: 0 auto;
-}
-.hero {
-    background: linear-gradient(100deg, #fff9f2 80%, #ff9800 100%);
-    border-radius: 24px;
-    padding: 3rem 2rem 2rem 2rem;
-    margin-bottom: 2rem;
-    position: relative;
-    box-shadow: 0 6px 32px rgba(23, 78, 166, 0.07);
-}
-.hero-image {
-    position: absolute;
-    top: -40px; right: 30px;
-    width: 180px; height: 180px;
-    background: url('/static/ai-hero.svg') no-repeat center/contain;
-    opacity: 0.1;
-    z-index: 0;
-}
-.hero h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 1.5rem;
-}
-.typewriter {
-    font-size: 1.35rem;
-    font-family: 'Fira Mono', monospace;
-    background: #fff;
-    padding: 1.25rem 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 12px rgba(23,78,166,0.09);
-    margin-bottom: 1rem;
-    min-height: 90px;
-    max-width: 700px;
-}
-.hero-caption {
-    font-size: 1rem;
-    color: #888;
-    margin-top: 0;
-}
-.workflow {
-    margin: 3rem 0;
-    text-align: center;
-}
-.workflow-steps {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.2rem;
-    margin: 2rem 0 1rem 0;
-}
-.step {
+.services {
+    margin: 2.5rem auto 0 auto;
+    max-width: 650px;
+    padding: 2.5rem 2rem 2rem 2rem;
     background: #e3ecfa;
-    border-radius: 12px;
-    padding: 1.5rem 1.5rem;
-    font-size: 1.1rem;
-    font-weight: 600;
-    min-width: 160px;
-    box-shadow: 0 1px 6px rgba(23,78,166,0.07);
+    border-radius: 18px;
+    box-shadow: 0 2px 12px rgba(23,78,166,0.08);
+    text-align: center;
 }
-.arrow {
-    font-size: 2rem;
-    color: #ff9800;
-    font-weight: bold;
+.services h2 {
+    margin-bottom: 1.1rem;
 }
-.workflow-note {
+.services ul {
+    text-align: left;
+    margin: 1.3rem auto 1rem auto;
+    padding-left: 1.3rem;
+    display: inline-block;
+}
+.services li {
+    margin-bottom: 0.8rem;
+    font-size: 1.12rem;
+    padding-left: 0.5rem;
+}
+.services-note {
     color: #174ea6;
     font-style: italic;
-    margin-top: 1.5rem;
+    margin: 1.5rem 0 2rem 0;
 }
-.financials {
-    margin: 2rem auto 0 auto;
-    max-width: 650px;
-    padding: 2rem;
-    background: #fff9f2;
-    border-radius: 18px;
-    box-shadow: 0 2px 12px rgba(23,78,166,0.05);
+.cta {
+    background: #ff9800;
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 2.2rem;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: inline-block;
+    transition: background 0.2s;
 }
-.financials h2 {
-    margin-bottom: 1.2rem;
-}
-.financials ul {
-    margin: 0;
-    padding-left: 1.5rem;
-}
-.financials li {
-    margin-bottom: 0.75rem;
-    font-size: 1.15rem;
-    padding-left: 0.5rem;
+.cta:hover {
+    background: #f35a00;
+    color: #fff;
 }
